@@ -1,3 +1,14 @@
 .App {
   text-align: center;
+  /* height: 100vh;
+  display: flex;
+  align-items: center; */
+}
+
+.App header.container {
+  /* display: block; */
+}
+
+body {
+  background: lightskyblue;
 }
