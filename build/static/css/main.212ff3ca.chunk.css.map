@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,MACE,YACF,CAEA,KACE,iBAAkB,CAClB,iBAAkB,CAClB,OACF,CAEA,KACE,kBACF","file":"main.212ff3ca.chunk.css","sourcesContent":["#root {\n  height: 100vh;\n}\n\n.App {\n  text-align: center;\n  position: relative;\n  top: 35%;\n}\n\nbody {\n  background: lightskyblue;\n}\n"]}
