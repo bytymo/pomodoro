@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,iBAIF,CAMA,KACE,kBACF","file":"main.a9c72400.chunk.css","sourcesContent":[".App {\n  text-align: center;\n  /* height: 100vh;\n  display: flex;\n  align-items: center; */\n}\n\n.App header.container {\n  /* display: block; */\n}\n\nbody {\n  background: lightskyblue;\n}\n"]}
