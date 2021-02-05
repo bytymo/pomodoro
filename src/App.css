@@ -1,12 +1,11 @@
-.App {
-  text-align: center;
-  /* height: 100vh;
-  display: flex;
-  align-items: center; */
+#root {
+  height: 100vh;
 }
 
-.App header.container {
-  /* display: block; */
+.App {
+  text-align: center;
+  position: relative;
+  top: 35%;
 }
 
 body {
