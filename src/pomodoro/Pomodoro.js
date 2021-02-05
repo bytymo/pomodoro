@@ -8,7 +8,7 @@ import Timer from './Timer'
 function Pomodoro() {
   const [focusTime, setFocusTime] = useState(25)
   const [breakTime, setBreakTime] = useState(5)
-  const [remainingTime, setRemainingTime] = useState(2)
+  const [remainingTime, setRemainingTime] = useState(1500)
   const [isTimerRunning, setIsTimerRunning] = useState(false)
   const [isStopped, setIsStopped] = useState(true)
   const [controlsDisabled, setControlsDisabled] = useState(false)
