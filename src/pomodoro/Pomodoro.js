@@ -8,16 +8,14 @@ import Timer from './Timer'
 function Pomodoro() {
   const [focusTime, setFocusTime] = useState(25)
   const [breakTime, setBreakTime] = useState(5)
-  const [remainingTime, setRemainingTime] = useState(1500)
+  const [remainingTime, setRemainingTime] = useState(2)
   const [isTimerRunning, setIsTimerRunning] = useState(false)
   const [isStopped, setIsStopped] = useState(true)
   const [controlsDisabled, setControlsDisabled] = useState(false)
   const [stopDisabled, setStopDisabled] = useState(true)
   const [currentState, setCurrentState] = useState('Focusing')
   const myAudio = useRef()
-  const alarm = new Audio(
-    `${process.env.PUBLIC_URL}/alarm/submarine-dive-horn.mp3`
-  )
+  const alarm = new Audio(`${process.env.PUBLIC_URL}/alarm/moogle.mp3`)
 
   useInterval(
     () => {
